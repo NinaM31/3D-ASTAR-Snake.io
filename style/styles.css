@@ -8,3 +8,14 @@ body {
   height: 100%;
   display: block;
 }
+#info {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  background: rgba(207, 255, 202, 0.938);
+  padding: 0.5em;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  width: 300px;
+  font-size: 25px;
+}
