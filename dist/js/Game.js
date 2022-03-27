@@ -117,7 +117,7 @@ export default class Game {
     var path = this.astar.search(this.snake.head, this.food);
     var x = this.snake.head.x;
     var y = this.snake.head.y;
-    console.log(path);
+
     //There is a path
     if (path.length > 0) {
       x = path[0].x;

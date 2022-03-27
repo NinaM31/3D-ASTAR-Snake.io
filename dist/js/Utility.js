@@ -21,7 +21,7 @@ export const Texture = {
   pTexture: null,
 
   init: function () {
-    this.pTexture = this.loader.load("../textures/grass.png");
+    this.pTexture = this.loader.load("./textures/grass.png");
     this.pTexture.wrapS = THREE.RepeatWrapping;
     this.pTexture.wrapT = THREE.RepeatWrapping;
     this.pTexture.magFilter = THREE.NearestFilter;

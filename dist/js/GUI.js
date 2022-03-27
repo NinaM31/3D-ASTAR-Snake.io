@@ -78,7 +78,6 @@ function run() {
 
       if (game.die()) {
         scene.remove.apply(scene, scene.children);
-        console.log("died");
         draw();
       }
     }
